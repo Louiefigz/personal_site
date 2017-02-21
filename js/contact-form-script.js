@@ -27,6 +27,7 @@ function submitForm(){
             if (text == "success"){
                 formSuccess();
             } else {
+              debugger
                 formError();
                 submitMSG(false,text);
             }
