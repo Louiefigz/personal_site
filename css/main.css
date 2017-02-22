@@ -597,8 +597,8 @@ article a {
 .socials .linkedin {
   color: #007BB6;
 }
-.socials .dribbble {
-  color: #EC4A89;
+.socials .github {
+  color: black;
 }
 .socials .pinterest {
   color: #BD2126;
@@ -923,9 +923,9 @@ article .pager span a {
   color: #ffffff;
   background: #007BB6;
 }
-.footer .social-links .dribbble:hover {
+.footer .social-links .github:hover {
   color: #ffffff;
-  background: #EC4A89;
+  background: black;
 }
 .footer .social-links .pinterest:hover {
   color: #ffffff;
