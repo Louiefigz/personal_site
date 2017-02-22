@@ -1705,7 +1705,12 @@ article .pager span a {
   margin-right: -1px;
 }
 
-.change input[type='text'], input[type="email"]{
+.change input[type='text']{
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+.change input[type="email"]{
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 20px;
   font-weight: normal;
