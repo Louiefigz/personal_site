@@ -4,11 +4,25 @@ $('.social-link').tooltip();
 
 $(document).ready(function () {
 
+  var message = new Array;
+   message[0]= "New To Programming?"
+   message[1]= "Need Some Help?"
+   message[2] = "What's an alias in rails?"
+   message[3] = "What's up?"
+   message[4] = "Making a database is simple"
+   message[5] = "Should you make your own website?"
+   message[6] = "Development mode vs. production?"
+   message[7] = "How many hours have you been debugging?"
+   message[8] = "Press Refresh and see this message change. How did I do it?"
+
+   var i = Math.floor(message.length * Math.random());
+
+  $('#newsletter').html("<h2>" + message[i])+ "</h2>";
   //Dropdown Menus
 $(".dropdown").hover(
   function () {
     $(this).addClass('open');
-  }, 
+  },
   function () {
     $(this).removeClass('open');
   }
@@ -44,7 +58,7 @@ $(".post-carousel").owlCarousel({
     itemsMobile: [479, 1]
 });
 
-  var owl = $(".slider"); 
+  var owl = $(".slider");
   owl.owlCarousel({
     navigation : true,
     pagination: false,
@@ -111,7 +125,7 @@ $(function (){
 });
 
 /**
- * Slick Nav 
+ * Slick Nav
  */
 
 $('.wpb-mobile-menu').slicknav({
@@ -124,10 +138,13 @@ $('.wpb-mobile-menu').slicknav({
   openedSymbol: '<i class="fa fa-angle-down"></i>',
 });
 
-// Counter  
+// Counter
   $('.timer').countTo();
   $('.counter-item').appear(function() {
     $('.timer').countTo();
-  }, {
+  }
+
+
+  , {
     accY: -100
-  }); 
+  });
