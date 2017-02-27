@@ -17,7 +17,7 @@ $(document).ready(function () {
 
    var i = Math.floor(message.length * Math.random());
 
-  $('#newsletter').html("<h2>" + message[i])+ "</h2>";
+  $('#newsletter').html('<h4 class="news">' + message[i])+ '</h4>';
   //Dropdown Menus
 $(".dropdown").hover(
   function () {
