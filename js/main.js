@@ -17,7 +17,7 @@ $(document).ready(function () {
 
    var i = Math.floor(message.length * Math.random());
 
-  $('#newsletter').html('<h4 class="news">' + message[i])+ '</h4>';
+  $('#newsletter').html('<h4 class="deepshadow special_text">' + message[i])+ '</h4>';
   //Dropdown Menus
 $(".dropdown").hover(
   function () {

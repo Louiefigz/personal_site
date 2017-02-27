@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 /* ==========================================================================
    Global Styles
    ========================================================================== */
@@ -474,13 +475,13 @@ ol {
    ========================================================================== */
 #hero-area {
   width: 100%;
-  background: url(../img/bg/hero-area.jpg);
+  background: url(../img/blog/figz3.jpg);
   background-size: cover;
-  padding: 90px 0;
+  padding: 190px 0;
   position: relative;
 }
 #hero-area:before {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -498,6 +499,9 @@ ol {
   font-weight: 500;
 }
 #hero-area .intro-area h2 {
+  position: absolute;
+  top: 0px;
+  right: 20px;
   font-size: 62px;
   font-weight: 600;
 }
@@ -1750,3 +1754,112 @@ article .pager span a {
 .tsc_table_s10 tbody tr:hover { background:#51152A;}
 .tsc_table_s10 tbody tr:hover th,
 .tsc_table_s10 tbody tr.odd:hover th { background:#51152A;}
+
+.resize{
+  font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 30%;
+    font-size: 3em;
+    left: 200px;
+    color: white;
+
+
+}
+
+@media only screen and (max-width: 375px) {
+  .resize {
+    font-size:10px;
+    position: absolute;
+    bottom: 120px;
+    color: #ec483b;
+
+  }
+}
+@media only screen and (max-width: 414px) {
+  .resize {
+    font-size:10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 160px;
+    color: #ec483b;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .resize {
+    font-size:25px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 90px;
+    top: 280px;
+    color: #ec483b;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .resize {
+    font-size:25px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 90px;
+    top: 220px;
+    color: #ec483b;
+    font-weight: bold;
+  }
+}
+
+.milk{
+  background: url(../img/blog/milkbot-back.jpg);
+  background-size: 520px;
+
+}
+.teach{
+  background: url(../img/blog/milkbot-back.jpg);
+  background-size: 520px;
+  color: white; padding-top: 19px; padding-bottom: 19px;
+}
+.teach h2{
+
+  font-size:25px;
+}
+
+
+
+/*animated text Css*/
+.special_text{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 22px;
+  padding: 40px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+  
+  .deepshadow {
+    color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow:
+      0 -1px 0 #fff,
+      0 1px 0 #2e2e2e,
+      0 2px 0 #2c2c2c,
+      0 3px 0 #2a2a2a,
+      0 4px 0 #282828,
+      0 5px 0 #262626,
+      0 6px 0 #242424,
+      0 7px 0 #222,
+      0 8px 0 #202020,
+      0 9px 0 #1e1e1e,
+      /*0 10px 0 #1c1c1c,
+      0 11px 0 #1a1a1a,
+      0 12px 0 #181818,
+      0 13px 0 #161616,
+      0 14px 0 #141414,
+      0 15px 0 #121212,*/
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
