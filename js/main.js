@@ -18,6 +18,37 @@ $(document).ready(function () {
    var i = Math.floor(message.length * Math.random());
 
   $('#newsletter').html('<h4 class="deepshadow special_text">' + message[i])+ '</h4>';
+
+  // Showing HTML Resources content
+  $('.html-resources').hide();
+  $('.hide-html').hide();
+  $('.view-html').click(function(){
+    $('.html-resources').show();
+    $('.view-html').hide();
+    $('.hide-html').show();
+  })
+
+  $('.hide-html').click(function(){
+    $('.html-resources').hide();
+    $('.hide-html').hide();
+    $('.view-html').show();
+
+  })
+  $('.javascript-resources').hide();
+  $('.hide-javascript').hide();
+
+  $('.view-javascript').click(function(){
+    $('.javascript-resources').show();
+    $('.view-javascript').hide();
+    $('.hide-javascript').show();
+  })
+
+  $('.hide-javascript').click(function(){
+    $('.javascript-resources').hide();
+    $('.view-javascript').show();
+    $('.hide-javascript').hide();
+  })
+
   //Dropdown Menus
 $(".dropdown").hover(
   function () {
