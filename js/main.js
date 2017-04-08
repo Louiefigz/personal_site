@@ -49,6 +49,22 @@ $(document).ready(function () {
     $('.hide-javascript').hide();
   })
 
+  $('.ruby-resources').hide();
+  $('.hide-ruby').hide();
+
+  $('.view-ruby').click(function(){
+    $('.ruby-resources').show();
+    $('.view-ruby').hide();
+    $('.hide-ruby').show();
+  })
+
+  $('.hide-ruby').click(function(){
+    $('.ruby-resources').hide();
+    $('.view-ruby').show();
+    $('.hide-ruby').hide();
+  })
+
+
   //Dropdown Menus
 $(".dropdown").hover(
   function () {
